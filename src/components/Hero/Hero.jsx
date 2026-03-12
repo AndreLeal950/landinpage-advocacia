@@ -25,7 +25,10 @@ function Hero() {
 				</div>
 
 				<div className="hero-img">
-					<img src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c" />
+					<img
+						src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c"
+						alt="imagem livre"
+					/>
 				</div>
 			</div>
 		</section>

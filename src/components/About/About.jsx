@@ -5,7 +5,10 @@ function About() {
 		<section id="sobre" className="about">
 			<div className="container about-grid">
 				<div className="about-img">
-					<img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6" />
+					<img
+						src="https://images.unsplash.com/photo-1662104935883-e9dd0619eaba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+						alt="imagem livre"
+					/>
 				</div>
 
 				<div className="about-text">
