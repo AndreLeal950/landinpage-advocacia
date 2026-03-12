@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import Services from "./components/Servicos/Services";
+import Benefits from "./components/Benefits/Benefits";
+import Testimonials from "./components/Testimonials/Testimonials";
+import CTA from "./components/CTA/CTA";
+import Footer from "./components/Footer/Footer";
+import WhatsAppFloat from "./components/WhatsAppFloat/WhatsAppFloat";
+
+import "./global.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Header />
+			<Hero />
+			<About />
+			<Services />
+			<Benefits />
+			<Testimonials />
+			<CTA />
+			<Footer />
+			<WhatsAppFloat />
+		</>
+	);
 }
 
 export default App;
